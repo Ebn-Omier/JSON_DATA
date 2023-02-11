@@ -1,0 +1,142 @@
+body {
+  font-family: "Cairo", sans-serif;
+}
+
+.contaner {
+  width: 80%;
+  margin: 0px auto;
+}
+
+.sectionTitle {
+  color: #44759f;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.mainBody {
+  position: relative;
+  min-height: 1000px;
+  font-family: "Cairo", sans-serif;
+}
+.mainBody .navBar {
+  background: #fefcfc;
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  padding: 10px 0px;
+  box-shadow: 0px 0px 2px 0px;
+}
+.mainBody .navBar .contaner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.mainBody .navBar .navLinks {
+  display: flex;
+  gap: 15px;
+}
+.mainBody .navBar .logo span {
+  font-size: 25px;
+  font-weight: bold;
+  color: #44759f;
+}
+.mainBody .HeroSection {
+  position: relative;
+  padding: 100px 0px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.mainBody .HeroSection .contaner::before {
+  content: "";
+  position: absolute;
+  background: rgba(0, 0, 0, 0.7);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.mainBody .HeroSection .mainTitle {
+  color: #fff;
+  font-family: "Cairo", sans-serif;
+  font-size: 35px;
+  z-index: 1;
+  position: relative;
+  font-weight: bold;
+}
+.mainBody .blogContent {
+  margin: 100px 0px;
+}
+.mainBody .blogContent .contaner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  font-size: 16px;
+  line-height: 28px;
+}
+.mainBody .blogContent .contaner .sideBar {
+  width: 20%;
+  padding: 20px 0px 20px 20px;
+}
+.mainBody .blogContent .contaner .blogSection {
+  width: 70%;
+  border-right: 1px solid #ccc;
+  padding: 20px 20px 20px 0px;
+}
+.mainBody .blogContent .contaner .blogSection .postText {
+  line-height: 30px;
+}
+
+.services {
+  text-align: center;
+  background: aquamarine;
+  padding: 50px 0px;
+}
+.services .contaner {
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+}
+.services .servTitle {
+  color: #2f2d35;
+  display: block;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.cvTemplate {
+  padding: 100px 0px 50px 0px;
+}
+.cvTemplate .templates {
+  display: flex;
+  gap: 20px;
+  align-items: stretch;
+  flex-direction: row;
+}
+.cvTemplate .templates .box img {
+  width: 100%;
+}
+.cvTemplate .redMore {
+  width: 100%;
+  text-align: center;
+}
+.cvTemplate button {
+  background: #61e9bb;
+  padding: 15px;
+  border-radius: 5px;
+  width: 200px;
+  margin: 20px auto;
+}
+
+.footer {
+  text-align: center;
+  width: 100%;
+  background: #2f2d35;
+  color: #ccc;
+  padding: 20px 0px;
+}/*# sourceMappingURL=main.css.map */
